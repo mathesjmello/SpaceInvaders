@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: adf3549b6a8cbff40ba4c24f13c059a9
+timeCreated: 1519301767
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Commodore 64 Rounded
+  fontNames:
+  - Commodore 64 Rounded
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
