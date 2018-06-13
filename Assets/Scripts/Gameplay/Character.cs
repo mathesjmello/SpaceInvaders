@@ -6,8 +6,6 @@ namespace Gameplay
 {
 	public class Character : MonoBehaviour
 	{
-		public Button LButton;
-		public Button RButton;
 		private Rigidbody2D _rgb;
 		private bool _inComing;
 		public float Speed;
@@ -16,8 +14,6 @@ namespace Gameplay
 		// Use this for initialization
 		void Start ()
 		{
-			LButton.onClick.AddListener(MoveLeft);
-			RButton.onClick.AddListener(MoveRight);
 			_rgb = gameObject.GetComponent<Rigidbody2D>();
 		}
 
@@ -27,21 +23,31 @@ namespace Gameplay
 		void Update ()
 		{
 
-			
-			
-			
+			if (Input.GetMouseButtonDown(0))
+			{
+				Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+				RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+
+				if (hit.collider != null)
+				{
+					switch (hit.collider.name)
+					{
+						case "direita":
+							_direcao = 1;
+							break;
+						case "esquerda":
+							_direcao = -1;
+							break;
+					}
+				}
+			}
+			if (Input.GetMouseButtonUp(0))
+				_direcao = 0;
+
+
+
 			_rgb.velocity = new Vector2(Speed * _direcao, _rgb.velocity.y);
 
-		}
-
-		public void MoveRight()
-		{
-			_direcao = 1;
-		}
-
-		public void MoveLeft()
-		{
-			_direcao = -1;
 		}
 	}
 	
