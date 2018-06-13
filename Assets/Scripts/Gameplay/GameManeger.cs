@@ -19,8 +19,11 @@ public class GameManeger : MonoBehaviour
 
 	public void Fire()
 	{
-		
-		ShotPrefab.transform.position = Character.transform.position+ Vector3.up;
-		Instantiate(ShotPrefab);
+		if (!ShotPrefab.activeSelf)
+		{
+			ShotPrefab.transform.rotation = Quaternion.AngleAxis(0, Vector3.zero);
+			ShotPrefab.transform.position = Character.transform.position + Vector3.up;
+			ShotPrefab.SetActive(true);
+		}
 	}
 }
