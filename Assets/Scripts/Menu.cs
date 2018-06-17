@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
 	public GameObject alert;
@@ -17,12 +18,12 @@ public class Menu : MonoBehaviour {
 // botão que volta para a tela de faser
 	public void Play(){
 
-		MyLoading.Loading ("Game");
+		SceneManager.LoadScene("Game");
 	}
 	// botão que volta para o menu
 	public void MenuBack(){
 
-		MyLoading.Loading ("Menu");
+		SceneManager.LoadScene ("Menu");
 	}
 
 	// mostra tela de sair quando clica no voltar do celular
@@ -32,10 +33,5 @@ public class Menu : MonoBehaviour {
 
 		}
 
-	}
-// Comando para o botão permitir apenas a fase 1
-	public void ZeraGame()
-	{
-		MyLoading.Loading("LevelSelect");
 	}
 }

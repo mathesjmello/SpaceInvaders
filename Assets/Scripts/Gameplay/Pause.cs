@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
@@ -22,13 +23,13 @@ public class Pause : MonoBehaviour
 	public void BackMenu()
 	{
 		Time.timeScale = 1;
-		MyLoading.Loading("LevelSelect");
+		SceneManager.LoadScene("Menu");
 	}
 //Restart fase
 	public void RestartLvl(string fase)
 	{
 		Time.timeScale = 1;
-		MyLoading.Loading(fase);	
+		SceneManager.LoadScene(fase);	
 	}
 
 }

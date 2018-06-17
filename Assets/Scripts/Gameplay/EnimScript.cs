@@ -6,6 +6,7 @@ using UnityEngine;
 public class EnimScript : MonoBehaviour
 {
 
+	public AudioSource Son;
 	public int EnimValor;
 	// Use this for initialization
 	void Start () {
@@ -20,5 +21,6 @@ public class EnimScript : MonoBehaviour
 	private void OnDisable()
 	{
 		GameManeger.Instance.ScoreCount(EnimValor);
+		Son.Play();
 	}
 }

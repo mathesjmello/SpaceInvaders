@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 //script para regrar tempo de exibição do logo e chamar o menu
 public class IntroScript : MonoBehaviour {
 
@@ -15,6 +17,6 @@ public class IntroScript : MonoBehaviour {
 	}
 
 	void ExitIntro(){
-		MyLoading.Loading ("Menu");
+		SceneManager.LoadScene ("Menu");
 	}
 }

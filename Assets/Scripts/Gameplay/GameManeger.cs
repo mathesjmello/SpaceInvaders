@@ -7,6 +7,7 @@ namespace Gameplay
 {
     public class GameManeger : MonoBehaviour
     {
+        public AudioSource Tiro;
         public Text ScoreText;
         public Text HighScoreText;
         public float HighScore;
@@ -41,6 +42,7 @@ namespace Gameplay
         {
             if (!ShotPrefab.activeSelf)
             {
+                Tiro.Play();
                 ShotPrefab.transform.rotation = Quaternion.AngleAxis(0, Vector3.zero);
                 ShotPrefab.transform.position = Character.transform.position + Vector3.up;
                 ShotPrefab.SetActive(true);
