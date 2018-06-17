@@ -9,6 +9,7 @@ namespace Gameplay
     {
         public Text ScoreText;
         public Text HighScoreText;
+        public float HighScore;
         public int CurrentScore;
         public static GameManeger Instance;
         public GameObject Character;
@@ -23,7 +24,18 @@ namespace Gameplay
         void Update ()
         {
             ScoreText.text = CurrentScore.ToString("0000");
+            HighScore = PlayerPrefs.GetFloat("Hi_Score");
+            if (HighScore >= CurrentScore)
+            {
+                HighScoreText.text = HighScore.ToString("0000");
+            }
+            else
+            {
+                PlayerPrefs.SetFloat("Hi_Score",CurrentScore);    
+            }
         }
+
+       
 
         public void Fire()
         {

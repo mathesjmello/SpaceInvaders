@@ -17,7 +17,7 @@ public class Menu : MonoBehaviour {
 // botão que volta para a tela de faser
 	public void Play(){
 
-		MyLoading.Loading ("LevelSelect");
+		MyLoading.Loading ("Game");
 	}
 	// botão que volta para o menu
 	public void MenuBack(){
@@ -36,8 +36,6 @@ public class Menu : MonoBehaviour {
 // Comando para o botão permitir apenas a fase 1
 	public void ZeraGame()
 	{
-		Persistence.levelstatus= new int[]{1,0,0,0,0,0,0,0};
-		PlayerPrefsX.SetIntArray ("LevelStatus", Persistence.levelstatus);
 		MyLoading.Loading("LevelSelect");
 	}
 }
