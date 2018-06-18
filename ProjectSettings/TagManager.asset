@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Objetivo
-  - mao
+  - Enimy
+  - casinha
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Gameplay
@@ -34,6 +35,10 @@ namespace Gameplay
             {
                 PlayerPrefs.SetFloat("Hi_Score",CurrentScore);    
             }
+            if (!Character.activeSelf)
+            {
+                Invoke("ResetGame",2);
+            }
         }
 
        
@@ -52,7 +57,12 @@ namespace Gameplay
         public void ScoreCount(int pontos)
         {
             CurrentScore += pontos;
-        } 
+        }
+
+        public void ResetGame()
+        {
+            SceneManager.LoadScene("Game");
+        }
     }
 }
 

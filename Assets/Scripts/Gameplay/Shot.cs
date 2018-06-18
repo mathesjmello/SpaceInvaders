@@ -15,13 +15,33 @@ namespace Gameplay
 	
         // Update is called once per frame
         void Update () {
+            if(transform.name=="tiro")
             transform.Translate(Vector3.up/Vel);
+            else
+            {
+                transform.Translate(Vector3.down/Vel);
+            }
         }
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            other.gameObject.SetActive(false);
-            gameObject.SetActive(false);
+            if (transform.name == "tiro")
+            {
+                other.gameObject.SetActive(false);
+                gameObject.SetActive(false);
+            }
+            
+            
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.name=="character" || other.CompareTag("casinha"))
+            {
+                other.gameObject.SetActive(false);
+                gameObject.SetActive(false);
+       
+            }
         }
 
         private void OnBecameInvisible()

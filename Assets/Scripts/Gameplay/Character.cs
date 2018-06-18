@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Gameplay
 {
 	public class Character : MonoBehaviour
 	{
+		public GameObject NaveDestruida;
 		private Rigidbody2D _rgb;
 		private bool _inComing;
 		public float Speed;
@@ -49,6 +51,14 @@ namespace Gameplay
 			_rgb.velocity = new Vector2(Speed * _direcao, _rgb.velocity.y);
 
 		}
+
+		private void OnDisable()
+		{
+			NaveDestruida.SetActive(true);
+			NaveDestruida.transform.position = transform.position;
+			
+		}
 	}
+	
 	
 }

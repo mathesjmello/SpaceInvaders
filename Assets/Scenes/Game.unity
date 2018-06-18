@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e7d57f4d870dcc4eafeaf6acf0de35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NaveDestruida: {fileID: 1859762582}
   Speed: 5
 --- !u!212 &64116264
 SpriteRenderer:
@@ -438,6 +439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -462,6 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -486,6 +489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -649,6 +653,10 @@ Prefab:
     - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
@@ -874,6 +882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -996,6 +1005,10 @@ Prefab:
     - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
@@ -1120,6 +1133,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -1224,6 +1241,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -1248,6 +1269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -1398,6 +1420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -1517,6 +1540,10 @@ Prefab:
       propertyPath: m_Name
       value: enemy 3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
   m_IsPrefabParent: 0
@@ -1625,6 +1652,10 @@ Prefab:
     - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
@@ -1749,6 +1780,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -1773,6 +1808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -1914,6 +1950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -2167,6 +2204,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -2186,6 +2227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -2439,6 +2481,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -2572,6 +2618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -2591,6 +2638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -2714,6 +2762,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -2832,6 +2884,10 @@ Prefab:
     - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
       propertyPath: m_Name
       value: enemy 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
@@ -2956,6 +3012,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -2975,6 +3035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -3116,6 +3177,82 @@ Prefab:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 1791547616612130, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992244970733208, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210894597454394, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057153314856076, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795322257502690, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242984114428096, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935838972240518, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853241288246736, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028917926395494, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965528408066444, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721450977157530, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035341577875582, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885199210774210, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652677544662304, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596236256195538, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703885712887068, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571125782155164, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1757293325143008, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322028128730194, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
   m_IsPrefabParent: 0
@@ -3239,6 +3376,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
   m_IsPrefabParent: 0
@@ -3358,6 +3499,10 @@ Prefab:
       propertyPath: m_Name
       value: enemy 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -3377,6 +3522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
@@ -3495,6 +3641,10 @@ Prefab:
     - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
       propertyPath: m_Name
       value: enemy 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
@@ -3619,6 +3769,10 @@ Prefab:
     - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
       propertyPath: m_Name
       value: enemy 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
@@ -3773,6 +3927,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -3870,6 +4028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
@@ -3918,9 +4077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc379b2ba6c6d14b82fb12bd59a6d88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0
-  _xLimit: 0
-  _step: 0.05
+  Speed: 0.5
+  _xLimit: 1
 --- !u!1 &943090228
 GameObject:
   m_ObjectHideFlags: 0
@@ -4015,6 +4173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -4134,6 +4293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
@@ -4257,6 +4417,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -4276,6 +4440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -4295,6 +4460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -4314,6 +4480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -4417,6 +4584,10 @@ Prefab:
     - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
@@ -4541,6 +4712,10 @@ Prefab:
     - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
       propertyPath: m_Name
       value: enemy 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
@@ -4667,6 +4842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -4790,6 +4966,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
   m_IsPrefabParent: 0
@@ -4903,6 +5083,10 @@ Prefab:
     - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
@@ -5023,6 +5207,10 @@ Prefab:
       propertyPath: m_Name
       value: enemy 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -5042,6 +5230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -5061,6 +5250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -5085,6 +5275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -5239,6 +5430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
@@ -5304,6 +5496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -5693,6 +5886,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
   m_IsPrefabParent: 0
@@ -5833,6 +6030,82 @@ Prefab:
         type: 2}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028917926395494, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210894597454394, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965528408066444, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571125782155164, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057153314856076, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885199210774210, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1757293325143008, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721450977157530, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703885712887068, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992244970733208, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795322257502690, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242984114428096, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596236256195538, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035341577875582, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791547616612130, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652677544662304, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853241288246736, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935838972240518, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322028128730194, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
@@ -6000,6 +6273,10 @@ Prefab:
       propertyPath: m_Name
       value: enemy 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -6019,6 +6296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -6279,6 +6557,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -6298,6 +6580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -6421,6 +6704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -6440,6 +6724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
@@ -6567,6 +6852,10 @@ Prefab:
     - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
@@ -6702,6 +6991,10 @@ Prefab:
       propertyPath: m_Name
       value: enemy 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
   m_IsPrefabParent: 0
@@ -6721,6 +7014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -6843,6 +7137,10 @@ Prefab:
     - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
@@ -7297,6 +7595,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -7316,6 +7618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
@@ -7335,6 +7638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -7433,8 +7737,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 462, y: 259.875}
+  m_AnchoredPosition: {x: 0.016, y: 0}
+  m_SizeDelta: {x: 462.814, y: 259.875}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1693613899
 AudioSource:
@@ -7547,6 +7851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -7665,6 +7970,10 @@ Prefab:
     - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
       propertyPath: m_Name
       value: enemy 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
@@ -7877,6 +8186,82 @@ Prefab:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 1757293325143008, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791547616612130, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965528408066444, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028917926395494, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853241288246736, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652677544662304, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992244970733208, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057153314856076, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210894597454394, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703885712887068, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721450977157530, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322028128730194, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795322257502690, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242984114428096, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596236256195538, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571125782155164, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035341577875582, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935838972240518, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885199210774210, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
   m_IsPrefabParent: 0
@@ -8036,6 +8421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -8181,6 +8567,82 @@ Prefab:
         type: 2}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322028128730194, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935838972240518, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057153314856076, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596236256195538, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853241288246736, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652677544662304, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242984114428096, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1757293325143008, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885199210774210, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028917926395494, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791547616612130, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721450977157530, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035341577875582, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571125782155164, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795322257502690, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992244970733208, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965528408066444, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703885712887068, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210894597454394, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
+      propertyPath: m_TagString
+      value: casinha
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bd5611dfe794eb4fa37fc28067fb8e2, type: 2}
@@ -8361,6 +8823,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -8380,9 +8846,84 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
+--- !u!1 &1859762582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1859762584}
+  - component: {fileID: 1859762583}
+  m_Layer: 0
+  m_Name: space_invaders_sprite_sheet_by_gooperblooper22_15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!212 &1859762583
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859762582}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300030, guid: 35506fe8063b8c6489aa7f01a4c45b91, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.4666667, y: 0.56666666}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1859762584
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859762582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6249375, y: -4.5856605, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1871582901
 GameObject:
   m_ObjectHideFlags: 0
@@ -8527,6 +9068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -8855,6 +9397,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
   m_IsPrefabParent: 0
@@ -8978,6 +9524,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -9096,6 +9646,10 @@ Prefab:
     - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
       propertyPath: m_Name
       value: enemy 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
@@ -9299,6 +9853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -9456,6 +10011,10 @@ Prefab:
       propertyPath: m_Name
       value: enemy 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1064382657506352, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aecce7fbe76144284799790fa9d43b, type: 2}
   m_IsPrefabParent: 0
@@ -9475,6 +10034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 10
@@ -9593,6 +10153,10 @@ Prefab:
     - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
       propertyPath: m_Name
       value: enemy 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
@@ -9713,6 +10277,10 @@ Prefab:
       propertyPath: m_Name
       value: enemy 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1952258755733228, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf938e8a44539dd45a194d472c0cbfb3, type: 2}
   m_IsPrefabParent: 0
@@ -9732,6 +10300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 30
@@ -9986,6 +10555,10 @@ Prefab:
     - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
       propertyPath: m_Name
       value: enemy 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
@@ -10298,6 +10871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd17ef85d747d4409ac831968c1e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo: {fileID: 1265258804547664, guid: d7ced03f666a36942adac8c7086907fd, type: 2}
   Morte: {fileID: 2101443327}
   Son: {fileID: 598788628}
   EnimValor: 20
@@ -10420,6 +10994,10 @@ Prefab:
     - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929124880343194, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
+      propertyPath: m_TagString
+      value: Enimy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d9817f839fb13d4fa766db1fa7f0dbb, type: 2}
