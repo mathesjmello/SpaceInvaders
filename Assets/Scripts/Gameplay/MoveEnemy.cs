@@ -9,7 +9,6 @@ namespace Gameplay
     {
 
         public float Speed;
-        private float _timer;
         private int _direction=1;
         public float _xLimit;
 
@@ -18,8 +17,7 @@ namespace Gameplay
 
         void Start ()
         {
-            _timer = Time.deltaTime;
-            Getreferences();
+           Getreferences();
         }
 
         void Getreferences()
@@ -51,7 +49,7 @@ namespace Gameplay
                         }
                     }
 
-                    _xLimit = 1 + _step * (ships.GetLength(0) - 1 + x);
+                    _xLimit = 1 + _step * (ships.GetLength(0) - 1 - x);
                     if (!empty)
                     {
                         return;
@@ -72,7 +70,7 @@ namespace Gameplay
                         }
                     }
 
-                    _xLimit = 1 + _step * (ships.GetLength(0) - 1 + x);
+                    _xLimit = 1 + _step * (ships.GetLength(0) - 1 - x);
                     if (!empty)
                     {
                         return;
@@ -80,22 +78,21 @@ namespace Gameplay
                 }
             }
         }
-	
-        void Update ()
+	      void Update ()
         {
             Calculatelimit();
             if (transform.position.x > _xLimit && _direction == 1)
             {
                 _direction = -1;
-                transform.position = transform.position + Vector3.down/5;
+                transform.position = transform.position + Vector3.down/7;
             }
             if (transform.position.x < -_xLimit && _direction==-1)
             {
                 _direction = 1;
-                transform.position = transform.position + Vector3.down/5;
+                transform.position = transform.position + Vector3.down/7;
             }
 		
-            transform.Translate(Vector3.right * Time.deltaTime*_direction);
+            transform.Translate(Vector3.right * Time.deltaTime*_direction*Speed);
         }
     }
 }

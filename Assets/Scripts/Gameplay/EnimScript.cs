@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnimScript : MonoBehaviour
 {
-
+	public GameObject Morte;
 	public AudioSource Son;
 	public int EnimValor;
 	// Use this for initialization
@@ -21,6 +21,9 @@ public class EnimScript : MonoBehaviour
 	private void OnDisable()
 	{
 		GameManeger.Instance.ScoreCount(EnimValor);
+		if(!Morte.activeSelf)
+		Morte.SetActive(true);
+		Morte.transform.position = transform.position;
 		Son.Play();
 	}
 }
