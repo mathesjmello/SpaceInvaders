@@ -25,7 +25,7 @@ namespace Gameplay
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            if (transform.name == "tiro")
+            if (transform.name == "tiro"&&!(other.gameObject.name=="direita"||other.gameObject.name=="esquerda"))
             {
                 other.gameObject.SetActive(false);
                 gameObject.SetActive(false);

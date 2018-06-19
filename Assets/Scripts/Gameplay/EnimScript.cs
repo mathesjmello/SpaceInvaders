@@ -23,7 +23,7 @@ public class EnimScript : MonoBehaviour
 	private void Fire()
 	{
 		
-		rnd = Random.Range(4, 12);
+		rnd = Random.Range(4,20);
 		
 	}
 
@@ -44,9 +44,13 @@ public class EnimScript : MonoBehaviour
 	private void OnDisable()
 	{
 		GameManeger.Instance.ScoreCount(EnimValor);
-		if(!Morte.activeSelf)
 		Morte.SetActive(true);
 		Morte.transform.position = transform.position;
 		Son.Play();
+		if (FindObjectOfType<EnimScript>() == null)
+		{
+			Persistence.Win = GameManeger.Instance.HighScore;
+			GameManeger.Instance.ResetGame();
+		}
 	}
 }

@@ -10,11 +10,13 @@ public static class Persistence {
 	public static float musicvolume;
 	public static float sfxvolume;
 	public static float Hi_Score;
+	public static float Win;
 
 	public static void SaveData(){
 		PlayerPrefs.SetFloat ("MVolume", musicvolume);
 		PlayerPrefs.SetFloat ("SFXVolume", sfxvolume);
 		PlayerPrefs.SetFloat ("Hi_Score", Hi_Score);
+		PlayerPrefs.SetFloat("Win",Win);
 	}
 
 	public static void LoadData(){
@@ -22,6 +24,7 @@ public static class Persistence {
 		musicvolume=PlayerPrefs.GetFloat("MVolume");
 		sfxvolume=PlayerPrefs.GetFloat("SFXVolume");
 		Hi_Score=PlayerPrefs.GetFloat("Hi_Score");
+		Win=PlayerPrefs.GetFloat("Win");
 	}
 }
 

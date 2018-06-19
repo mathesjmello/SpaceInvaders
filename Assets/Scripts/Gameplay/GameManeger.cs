@@ -12,7 +12,7 @@ namespace Gameplay
         public Text ScoreText;
         public Text HighScoreText;
         public float HighScore;
-        public int CurrentScore;
+        public float CurrentScore;
         public static GameManeger Instance;
         public GameObject Character;
         public GameObject ShotPrefab;
@@ -20,6 +20,10 @@ namespace Gameplay
         void Start ()
         {
             Instance = this;
+            if (Persistence.Win > 0)
+            {
+                CurrentScore = Persistence.Win;
+            }
         }
 	
         // Update is called once per frame

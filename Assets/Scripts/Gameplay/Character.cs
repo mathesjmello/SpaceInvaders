@@ -56,7 +56,8 @@ namespace Gameplay
 		{
 			NaveDestruida.SetActive(true);
 			NaveDestruida.transform.position = transform.position;
-			
+			Persistence.Win = 0;
+
 		}
 	}
 	
